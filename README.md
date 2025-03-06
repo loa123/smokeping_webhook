@@ -35,6 +35,7 @@ host = 8.8.8.8
 alerts = hostdown  #添加告警设置
 
 3.重启smokeping
+
 4.验证方法：
 
 
