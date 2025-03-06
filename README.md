@@ -13,17 +13,25 @@ smokeping企业微信机器人推送
 to = |/smokeping/bin/send_mail.sh
 
 +hostdown
+
 type = loss
+
 pattern = ==0%,==0%,==0%, ==U
+
 comment = 主机完全宕机
+
 to = alert@robot  # 关联到邮件管道，推送给机器人
 
 *** Targets ***
 
 +dns-11
+
 menu = 谷歌-8.8.8.8
+
 title = 谷歌-8.8.8.8
+
 host = 8.8.8.8
+
 alerts = hostdown  #添加告警设置
 
 3.重启smokeping
