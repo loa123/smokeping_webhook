@@ -6,6 +6,7 @@ smokeping企业微信机器人推送
 其中发送邮件部分
 
 *** Alerts ***
+
 to = |/smokeping/bin/send_mail.sh
 
 +hostdown
@@ -25,14 +26,11 @@ alerts = hostdown  #添加告警设置
 3.重启smokeping
 4.验证方法：
 
-```
+
 # 执行测试
 ```
-
 docker exec smokeping /smokeping/bin/send_mail.sh
 "HostDown" "8.8.8.8" "loss: 100%" "500ms" "dns-11"
-
-```
 
 ```
 
