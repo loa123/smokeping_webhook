@@ -1,8 +1,11 @@
 # smokeping_webhook
 
 smokeping企业微信机器人推送
+
 1.修改send_mail.sh
+
 2.修改config的部分配置：
+
 其中发送邮件部分
 
 *** Alerts ***
